@@ -1,0 +1,28 @@
+#Cardapio{
+	magin:auto;
+	display:inline-grid;
+	grid-template-columns:auto auto auto;
+	justify-content:center; /*Centraliza os elementos no centro na horizontal*/
+	align-items:center;  /*Centraliza os elementos no centro na vertical*/
+	gap:10px;
+	text-align:center;
+}
+.descricao{
+	text-align:justify;
+	hyphens:auto;
+}
+main{
+	margin:auto;
+	width:60%;
+	text-aling:center;
+}
+
+@media only screen and (max-width : 600px)
+{
+	h2{
+		font-size:1.2em;
+	}
+	#Cardapio{
+		display:inline-block;
+	}
+}

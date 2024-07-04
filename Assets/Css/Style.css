@@ -1,0 +1,97 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.pinterest.com%2Fpin%2Ffundo-de-textura-de-madeira-com-gradient--704954147937539610%2F&psig=AOvVaw3gswujJysRP-pq1mHh-02U&ust=1720199885861000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCMCW3Y3yjYcDFQAAAAAdAAAAABAJ")
+	display:grid;
+	justify-content:center; /*Centraliza os elementos no centro na horizontal*/
+	align-items:center;  /*Centraliza os elementos no centro na vertical*/
+	background:radial-gradient(#FFA200,#B76822);
+	color:#000;
+	font-family: "Kanit", sans-serif;
+	letter-spacing:1.5px;  /*define o espaçamento entre as letras*/
+}
+.imglanche{
+	width:250px;
+	border-radius:8px;
+	border: 2px double #000; /*Tipos de borda -- Groove, Inside, Solid*/
+	box-shadow: 3px 3px #000;
+}
+#logotipo{
+	width:250px;
+}
+header{
+	text-align:center;
+}
+.menu a{
+	margin:2%;
+	text-decoration:none;
+	color:#000;
+	font-size:1em;
+}
+
+.menu a:hover{
+	text-decoration:underline;
+	color:#fff;
+	font-size:1.2em;
+	text-shadow:1px 1px #FFA200;
+}
+#Cardapio{
+	magin:auto;
+	display:inline-grid;
+	grid-template-columns:auto auto auto;
+	justify-content:center; /*Centraliza os elementos no centro na horizontal*/
+	align-items:center;  /*Centraliza os elementos no centro na vertical*/
+	gap:10px;
+	text-align:center;
+}
+
+.preco{
+	font-size:1.5em;
+}
+
+.btn_comprar{
+	cursor:pointer;
+	background:linear-gradient(lime,green);
+	border:none;
+	color:#fff;
+	font-size:1em;
+	border-radius:8px;
+}
+
+.btn_comprar:hover{
+	transition:0.5s;
+	font-size:1.3em;
+}
+	
+
+#Contatos img{
+	width:32px;
+	height:32px;
+	margin:10px;
+}
+
+#Contatos a{
+	display:flex;
+	text-decoration:none;
+	color:black;
+}
+
+#Contatos{
+	margin-top:50px; 
+	display:inline-grid;
+	grid-template-columns:auto auto;
+	justify-content:center;
+	align-items:center;
+	gap:10px;
+}
+
+@media only screen and (max-width : 600px)
+{
+	h2{
+		font-size:1.2em;
+	}
+	#Cardapio{
+		display:inline-block;
+	}
+}
