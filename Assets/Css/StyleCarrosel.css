@@ -1,0 +1,55 @@
+    .carousel {
+        width:75%;
+        overflow: hidden;
+        margin: 0 auto;
+		margin-bottom:5%;
+        position: relative; /* Para posicionar os botões */
+    }
+
+    .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease;
+		text-align:center;
+    }
+
+    .carousel-item {
+        min-width: 100%;
+    }
+	
+	.imglanche {
+		
+	width:350px;
+	border-radius:10px;
+	border: 2px double #000; /*Tipos de borda -- Groove, Inside, Solid*/
+	box-shadow: 3px 3px #000;
+	
+	}
+
+    /* Botões para navegação */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        padding: 0,5px;
+        border: none;
+        outline: none;
+        z-index: 1;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+    }
+
+    /* Para tornar o carrossel responsivo */
+    @media (max-width: 768px) {
+        .carousel {
+            width: 100%;
+        }
+    }

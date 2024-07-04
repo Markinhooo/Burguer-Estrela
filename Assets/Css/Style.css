@@ -2,21 +2,18 @@
 	box-sizing:border-box;
 }
 body{
-	background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.pinterest.com%2Fpin%2Ffundo-de-textura-de-madeira-com-gradient--704954147937539610%2F&psig=AOvVaw3gswujJysRP-pq1mHh-02U&ust=1720199885861000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCMCW3Y3yjYcDFQAAAAAdAAAAABAJ")
+	background-image:url("tabua.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
 	display:grid;
 	justify-content:center; /*Centraliza os elementos no centro na horizontal*/
 	align-items:center;  /*Centraliza os elementos no centro na vertical*/
-	background:radial-gradient(#FFA200,#B76822);
-	color:#000;
+	/*background:radial-gradient(#FFA200,#B76822);*/
+	color:#fff;
 	font-family: "Kanit", sans-serif;
 	letter-spacing:1.5px;  /*define o espaçamento entre as letras*/
 }
-.imglanche{
-	width:250px;
-	border-radius:8px;
-	border: 2px double #000; /*Tipos de borda -- Groove, Inside, Solid*/
-	box-shadow: 3px 3px #000;
-}
+
 #logotipo{
 	width:250px;
 }
@@ -26,7 +23,7 @@ header{
 .menu a{
 	margin:2%;
 	text-decoration:none;
-	color:#000;
+	color:#fff;
 	font-size:1em;
 }
 
