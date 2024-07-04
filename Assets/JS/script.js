@@ -10,6 +10,6 @@
       Endereço de entrega: ${endereco}%0A
       Forma de pagamento: ${payment}`;
 
-    const whatsappLink = `https://api.whatsapp.com/send?phone=+5512997972700&text=${mensagem}`;
+    const whatsappLink = `https://api.whatsapp.com/send?phone=+5512983160115&text=${mensagem}`;
     window.open(whatsappLink, '_blank');
   });
